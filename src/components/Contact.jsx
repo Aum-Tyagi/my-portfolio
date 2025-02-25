@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Element } from 'react-scroll';
-import { FaTwitterSquare, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import {  FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
