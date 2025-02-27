@@ -66,37 +66,37 @@ const Header = () => {
         <div className="md:hidden absolute top-20 left-0 w-full bg-cornell text-white flex flex-col items-center shadow-md z-40">
           <ul className="flex flex-col space-y-4 p-4">
             <li>
-              <Link onClick={toggleMenu} to="about" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
+              <Link onClick={() => setTimeout(() => setIsOpen(false), 300)} to="about" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 About
               </Link>
             </li>
             <li>
-              <Link onClick={toggleMenu} to="articles" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
+              <Link onClick={() => setTimeout(() => setIsOpen(false), 300)} to="articles" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Articles
               </Link>
             </li>
             <li>
-              <Link onClick={toggleMenu} to="skills" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
+              <Link onClick={() => setTimeout(() => setIsOpen(false), 300)} to="skills" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Skills
               </Link>
             </li>
             <li>
-              <Link onClick={toggleMenu} to="experience" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
+              <Link onClick={() => setTimeout(() => setIsOpen(false), 300)} to="experience" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Experience
               </Link>
             </li>
             <li>
-              <Link onClick={toggleMenu} to="education" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
+              <Link onClick={() => setTimeout(() => setIsOpen(false), 300)} to="education" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Education
               </Link>
             </li>
             <li>
-              <Link onClick={toggleMenu} to="volunteering" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
+              <Link onClick={() => setTimeout(() => setIsOpen(false), 300)} to="volunteering" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
               Volunteering
               </Link>
             </li>
             <li>
-              <Link onClick={toggleMenu} to="contact" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
+              <Link onClick={() => setTimeout(() => setIsOpen(false), 300)} to="contact" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Contact Me
               </Link>
             </li>
