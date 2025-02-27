@@ -30,6 +30,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link to="skills" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
+                Skills
+              </Link>
+            </li>
+            <li>
               <Link to="experience" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Experience
               </Link>
@@ -42,11 +47,6 @@ const Header = () => {
             <li>
               <Link to="volunteering" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Volunteering
-              </Link>
-            </li>
-            <li>
-              <Link to="skills" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
-                Skills
               </Link>
             </li>
             <li>
@@ -76,6 +76,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link onClick={toggleMenu} to="skills" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
+                Skills
+              </Link>
+            </li>
+            <li>
               <Link onClick={toggleMenu} to="experience" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Experience
               </Link>
@@ -88,11 +93,6 @@ const Header = () => {
             <li>
               <Link onClick={toggleMenu} to="volunteering" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
               Volunteering
-              </Link>
-            </li>
-            <li>
-              <Link onClick={toggleMenu} to="skills" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
-                Skills
               </Link>
             </li>
             <li>

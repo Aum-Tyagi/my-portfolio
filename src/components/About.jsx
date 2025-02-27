@@ -24,9 +24,6 @@ const About = () => {
                 Trained at <span className="font-bold italic">Cornell SC Johnson College of Business</span> and equipped with a strong <span className="font-bold italic">mathematics background</span> from the University of Delhi.
               </li>
               <li>
-                A dynamic financial professional with a proven track record of delivering transformative results.
-              </li>
-              <li>
                 Specializes in turning complex data into strategic, actionable insights, using advanced financial modeling and valuation techniques.
               </li>
               <li>
