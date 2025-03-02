@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div className="pt-8 text-center">
             <a
-              href="https://drive.google.com/file/d/19L3s9Y3ixTD-X9UgJgCduqbzBJ8aepry/view?usp=sharing"
+              href="https://drive.google.com/file/d/1fF85whAZyd0XgMpq2mLBVsIDrV4_MQON/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
