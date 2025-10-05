@@ -21,9 +21,9 @@ const Volunteering = () => {
 
   return (
     <Element name="volunteering">
-      <section id="volunteering" className="py-16 bg-gray-100 text-gray-900 text-center">
+      <section id="volunteering" className="py-16 bg-cornell text-gray-900 text-center">
         <div className="container mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
+          <h2 className="text-3xl font-bold text-center mb-12 text-white">
             Volunteering & Conferences
           </h2>
 

@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
-import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Volunteering from './components/Volunteering';
@@ -23,7 +22,6 @@ const App = () => {
                 <About />
                 <Articles/>
                 <Skills />
-                <Experience />
                 <Education/>
                 <Volunteering/>
                 <Contact/>

@@ -32,22 +32,22 @@ const Education = () => {
 
   return (
     <Element name="education">
-      <section id="education" className="py-16 bg-cornell text-white text-center">
+      <section id="education" className="py-16 bg-gray-200 text-center">
         <div className="container mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
-          <h2 className="text-3xl font-bold text-center mb-12">Education</h2>
+          <h2 className="text-3xl text-cornellDark font-bold text-center mb-12">Education</h2>
 
           {/* Education Details */}
           <div className="grid gap-8 text-base md:text-lg max-w-3xl mx-auto">
             
             {/* Master of Professional Studies in Management (STEM) */}
             <div>
-              <h3 className="font-bold text-white">
+               <h3 className="font-bold text-cornell">
                 Master of Professional Studies in Management (STEM)
               </h3>
-              <p className="font-semibold text-gray-200">
+              <p className="font-semibold text-cornell">
                 Cornell SC Johnson College of Business, 2025
               </p>
-              <p className="italic text-gray-300 leading-relaxed">
+              <p className="italic font-bold leading-relaxed">
                 {showMoreMPS ? fullMPSCourses : truncatedMPSCourses}
               </p>
               {fullMPSCourses.length > 80 && (
@@ -63,13 +63,13 @@ const Education = () => {
 
             {/* Bachelor of Science in Mathematics */}
             <div>
-              <h3 className="font-bold text-white">
+              <h3 className="font-bold text-cornell">
                 Bachelor of Science in Mathematics
               </h3>
-              <p className="font-semibold text-gray-200">
+              <p className="font-semibold text-cornell">
                 Delhi College of Arts and Commerce, University of Delhi, 2023
               </p>
-              <p className="italic text-gray-300 leading-relaxed">
+              <p className="font-bold italic leading-relaxed">
                 {showMoreBSc ? fullBScCourses : truncatedBScCourses}
               </p>
               {fullBScCourses.length > 80 && (
@@ -85,11 +85,11 @@ const Education = () => {
 
             {/* CFA Level 2 Candidate */}
             <div>
-              <h3 className="font-bold text-white">CFA Level 2 Candidate</h3>
-              <p className="font-semibold text-gray-200">
-                CFA Institute, May 2024
+               <h3 className="font-bold text-cornell">CFA Level 2 Candidate</h3>
+              <p className="font-semibold text-cornell">
+                CFA Institute
               </p>
-              <p className="italic text-gray-300 leading-relaxed">
+              <p className="italic font-bold leading-relaxed">
               {showMoreCFA ? fullCFACourses : truncatedCFACourses}
               </p>
               {fullCFACourses.length > 80 && (
