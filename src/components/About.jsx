@@ -30,7 +30,7 @@ const About = () => {
                 Expertise includes developing advanced cash flow models, performing detailed DCF valuations, and optimizing investment strategies, driving multi-million-dollar improvements.
               </li>
               <li>
-                <span className="font-bold italic">CFA Level 2 Candidate</span> (May 2024), deeply focused on portfolio management, risk assessment, and financial strategy.
+                <span className="font-bold italic">CFA Level 1 Passed</span>, deeply focused on portfolio management, risk assessment, and financial strategy.
               </li>
               <li>
                 Entrepreneurial experience scaling innovative platforms to significant market impact, blending technology and finance.
@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div className="pt-8 text-center">
             <a
-              href="https://drive.google.com/file/d/1sxBmYY5ZUuFvB2R-gnS_7kgC0fZxiYGz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1F2YgBlLQcity0hIHaMX5-iI0YSlJtYf1"
               target="_blank"
               rel="noopener noreferrer"
             >
