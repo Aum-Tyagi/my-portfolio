@@ -35,11 +35,6 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="experience" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
-                Experience
-              </Link>
-            </li>
-            <li>
               <Link to="education" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Education
               </Link>
@@ -78,11 +73,6 @@ const Header = () => {
             <li>
               <Link onClick={() => setTimeout(() => setIsOpen(false), 300)} to="skills" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
                 Skills
-              </Link>
-            </li>
-            <li>
-              <Link onClick={() => setTimeout(() => setIsOpen(false), 300)} to="experience" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer hover:text-cornellDark">
-                Experience
               </Link>
             </li>
             <li>
